@@ -1,0 +1,47 @@
+.theme-midnightblue #s4-bodyContainer * {
+  box-sizing: border-box;
+}
+.theme-midnightblue #s4-bodyContainer .container-1920 {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.theme-midnightblue #s4-bodyContainer .hero-container {
+  background: url("https://via.placeholder.com/1920x800") center/cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+.theme-midnightblue #s4-bodyContainer .hero-content {
+  display: flex;
+  flex: 1 1 auto;
+  background: #0e4174;
+  background: rgba(14, 65, 116, 0.5);
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1;
+  padding: 5rem 0 2rem;
+}
+.theme-midnightblue #s4-bodyContainer .hero-content h2 {
+  font-size: 60px;
+  margin: 0;
+}
+.theme-midnightblue #s4-bodyContainer .hero-content p {
+  margin: 0;
+  line-height: 3;
+}
+.theme-midnightblue #s4-bodyContainer .hero-content .btns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 100%;
+}
+.theme-midnightblue #s4-bodyContainer .hero-content .btns a {
+  font-size: 1.2rem;
+  max-width: 250px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
