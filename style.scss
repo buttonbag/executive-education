@@ -52,4 +52,35 @@
             }
         }
     }
+
+    // content
+    #intro,
+    #depaul-difference,
+    #development,
+    #custom {
+        margin-top: 4rem;
+    }
+
+    #depaul-difference .highlights {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        .hl- {
+            &icon {
+                width: 65px;
+                height: 65px;
+            }
+
+            &title {
+                font-size: 22px;
+                font-weight: 600;
+                color: #0057b7;
+            }
+
+            &text {}
+        }
+    }
 }

@@ -43,5 +43,27 @@
   max-width: 250px;
   width: 100%;
 }
+.theme-midnightblue #s4-bodyContainer #intro,
+.theme-midnightblue #s4-bodyContainer #depaul-difference,
+.theme-midnightblue #s4-bodyContainer #development,
+.theme-midnightblue #s4-bodyContainer #custom {
+  margin-top: 4rem;
+}
+.theme-midnightblue #s4-bodyContainer #depaul-difference .highlights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.theme-midnightblue #s4-bodyContainer #depaul-difference .highlights .hl-icon {
+  width: 65px;
+  height: 65px;
+}
+.theme-midnightblue #s4-bodyContainer #depaul-difference .highlights .hl-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0057b7;
+}
 
 /*# sourceMappingURL=style.css.map */
