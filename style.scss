@@ -10,7 +10,7 @@
 
     // hero
     .hero-container {
-        background: url('https://via.placeholder.com/1920x800') center/cover;
+        background: url('/executive-education/PublishingImages/skyline.jpg') center/cover;
         height: 800px;
         display: flex;
         align-items: center;
@@ -19,8 +19,7 @@
     .hero-content {
         display: flex;
         flex: 1 1 auto;
-        background: #0e4174;
-        background: rgba(14, 65, 116, .5);
+        background: rgba(0, 87, 183, 0.6);
         flex-direction: column;
         align-items: center;
         color: white;
@@ -42,7 +41,7 @@
         .btns {
             display: flex;
             justify-content: space-between;
-            max-width: 500px;
+            max-width: 600px;
             width: 100%;
 
             a {
@@ -72,6 +71,11 @@
             &icon {
                 width: 65px;
                 height: 65px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
             }
 
             &title {
