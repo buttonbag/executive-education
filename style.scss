@@ -56,11 +56,12 @@
     #intro,
     #depaul-difference,
     #development,
-    #custom {
+    #custom,
+    section {
         margin-top: 4rem;
     }
 
-    #depaul-difference .highlights {
+    .highlights {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,6 +83,7 @@
                 font-size: 22px;
                 font-weight: 600;
                 color: #0057b7;
+                margin-top: .6rem;
             }
 
             &text {}
